@@ -24,3 +24,22 @@ for x in fruits:
     new_list.append(x)
 
 print(new_list)
+
+
+# Sort List Alphanumerically
+# List objects have a sort() method that will sort the list alphanumerically, ascending, by default:
+
+thislist_1 = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist_1.sort()
+print(thislist_1)
+
+# Sort the list numerically:
+
+thislist_2 = [100, 50, 65, 82, 23]
+thislist_2.sort()
+print(thislist_2)
+
+# Sort Descending
+# To sort descending, use the keyword argument reverse = True:
+thislist_1.sort(reverse = True)
+print(thislist_1)
